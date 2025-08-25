@@ -1,0 +1,52 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "e314: ls",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/bin/Debug/net9.0/e314-cli.dll",
+			"args": ["ls"],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"justMyCode": true
+		},
+		{
+			"name": "e314: init",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/bin/Debug/net9.0/e314-cli.dll",
+			"args": ["init"],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"justMyCode": true
+		},
+		{
+			"name": "e314: new upm",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/bin/Debug/net9.0/e314-cli.dll",
+			"args": ["new", "upm"],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"justMyCode": true
+		},
+		{
+			"name": "e314: clone all",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${workspaceFolder}/bin/Debug/net9.0/e314-cli.dll",
+			"args": ["clone", "all"],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"justMyCode": true
+		}
+	]
+}

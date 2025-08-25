@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>Moroshka.Cli</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <!-- Global tool properties -->
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>moroshka</ToolCommandName>
+        <PackageId>moroshka-cli</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Moroshka</Authors>
+        <Description>CLI tool for working with Moroshka modules</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>unity;upm;cli;tool</PackageTags>
+        <AssemblyName>moroshka-cli</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Spectre.Console" Version="0.50.1-preview.0.21" />
+      <PackageReference Include="Spectre.Console.Cli" Version="0.50.1-preview.0.21" />
+      <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="/" />
+    </ItemGroup>
+
+</Project>

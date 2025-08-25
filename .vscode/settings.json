@@ -1,0 +1,13 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.rulers": [100],
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true
+}
