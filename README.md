@@ -1,4 +1,4 @@
-# <img src="moroshka-cli.jpg" height="26px"/> Moroshka CLI
+# Moroshka CLI
 
 CLI tool for working with Moroshka Unity modules.
 
