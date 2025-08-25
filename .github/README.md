@@ -1,6 +1,7 @@
-# Moroshka CLI
+# <img alt="logo" height="100" src="moroshka-cli.png"/>
 
-CLI tool for working with Moroshka Unity modules.
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/moroshka-game/moroshka-cli/blob/main/LICENSE.md)
+![version](https://img.shields.io/badge/version-0.9.0-orange)
 
 ## Quick installation (Windows)
 
