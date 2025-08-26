@@ -1,6 +1,6 @@
 namespace Moroshka.Cli;
 
-public partial interface IProjectInfo
+public interface IProjectInfo
 {
 	IName Name();
 

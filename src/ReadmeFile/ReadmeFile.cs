@@ -6,7 +6,7 @@ public sealed class ReadmeFile(ITextFile templateFile, ITextFile outputFile) : I
 		new ITextFile.ReplaceName(
 			new ITextFile.ReplaceDescription(
 				new TextFile(
-					new File("README.md",
+					new File("readme.md",
 						new IDir.Templates())),
 				projectInfo.Description()),
 			projectInfo.Name()),

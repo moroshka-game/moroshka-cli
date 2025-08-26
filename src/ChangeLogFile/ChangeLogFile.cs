@@ -4,7 +4,7 @@ public sealed class ChangeLogFile(ITextFile templateFile, ITextFile outputFile) 
 {
 	public ChangeLogFile(IDir dir) : this(
 		new TextFile(
-			new File("CHANGELOG.md",
+			new File("changelog.md",
 				new IDir.Templates())),
 		new TextFile("CHANGELOG.md", dir))
 	{
